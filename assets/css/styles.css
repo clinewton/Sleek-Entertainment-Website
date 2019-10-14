@@ -1,0 +1,143 @@
+:root {
+	--red: #e50914;
+	--black: #000;
+	--white: #f4f4f4;
+	--light-blue: #40a1b7;
+	--dark-blue: #21295c;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #40a1b7;
+	background: linear-gradient(to right, #21295c, #40a1b7);
+	color: var(--white);
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #ef3e36;
+	font-weight: 800;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+p {
+	margin: 0.5rem 0;
+}
+
+img {
+	width: 100%;
+}
+header{
+	height: auto;
+	background: var(--light-blue);
+}
+header .header-title{
+	padding: 20px;
+	text-align: center;
+	color: var(--red);
+	font-weight: 800;
+}
+header #genre{
+	background: var(--dark-blue);
+}
+header #genre .genre-content{
+	display: flex;
+	padding: 10px;
+}
+header #genre .genre-content ul{
+	margin-left: 15%;
+	margin-right: 100px;
+}
+header #genre .genre-content ul li a{
+	padding: 10px;
+}
+header #genre .genre-content ul li{
+	padding: 5px;
+}
+.login-form{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10%;
+	height: 450px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	color: var(--white);
+}
+.login-form .form-header{
+	background: var(--white);
+	padding: 20px;
+}
+.login-form .form-group input{
+	width: 80%;
+	margin-left: 40px;
+}
+.login-form fieldset{
+	padding: 20px;
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+.movie .container .wrap-item .mv-group{
+	display: flex;
+}
+.movie .container .wrap-item .mv-group .mv-item{
+	height: 400px;
+	width: 500px;
+}
+.movie .container .wrap-item .mv-group .mv-item .mv-item-inner{
+	height: inherit;
+	width: inherit;
+}
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+
