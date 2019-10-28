@@ -9,7 +9,7 @@
 </head>
 <body style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/spider.jpg);" >
 <div class="container header">
-	<img src= "images/logo.png" class="logo">
+	<img src= "movie-images/logo.png" class="logo">
 	<a href="login.php"><i class="fa fa-user"></i>Log In</a>
 	<a href="cart.php" class="cart-btn"><i class="fa fa-shopping-cart"></i>View Cart</a>
 
@@ -42,31 +42,31 @@
 
 <p>Steve Ditko	...	(based on the Marvel comic book by)</p>
 	<a href="#"class="book-btn"><i class="fa fa-bell"></i>Add to Must Watch</a>
-	<a href="car.php"><i class="fa fa-shopping-cart"></i>Add to Cart</a>
+	<a href="movie-images/car.php"><i class="fa fa-shopping-cart"></i>Add to Cart</a>
 	<h5>Cast: </h5>
 	<p>Tom Holland, Zendaya, Jake Gyllenhaal, Jacob Batalon, Samuel L. Jackson, Marisa Tomei</p>
 
 
 	<div class="casting">
-		<img src="images/TomH.jpg" title="Tom Holland">
-		<img src="images/Zendaya.jpg" title="Zendaya">
-		<img src="images/JakeGy.jpg" title="Jake Gyllenhaal">
-		<img src="images/JacobBatalon.jpg" title="Jacob Batalon">
-		<img src="images/SamuelJackson.jpg" title="Samuel L. Jackson">
-		<img src="images/MarisaTomei.jpg" title="Marisa Tomei">
+		<img src="movie-images/TomH.jpg" title="Tom Holland">
+		<img src="movie-images/Zendaya.jpg" title="Zendaya">
+		<img src="movie-images/JakeGy.jpg" title="Jake Gyllenhaal">
+		<img src="movie-images/JacobBatalon.jpg" title="Jacob Batalon">
+		<img src="movie-images/SamuelJackson.jpg" title="Samuel L. Jackson">
+		<img src="movie-images/MarisaTomei.jpg" title="Marisa Tomei">
 </div>
 
 
 </div>
 <div class="col-md-6 text-center">
-	<img src="images/spiderman.jpg" class="movie-img">
+	<img src="movie-movie-images/spiderman.jpg" class="movie-img">
 	<br><br>
 <div class="video">
 	<p>Not convinced? Watch the Trailer BELOW!! 
 <b href="https://www.youtube.com/watch?v=Nt9L1jCKGnE" target="_blank"></b>
 </p>
 <video controls>
-  <source src="images/spiderman.mov" type="video/mov">
+  <source src="movie-images/spiderman.mov" type="video/mov">
   Your browser does not support HTML5 video.
 </video>
 </div>
@@ -79,20 +79,20 @@
 <div class="row">
 <div class="col-md-4">
 	<div class="row">
-		<div class="col-6"><img src="images/wick3.jpg"></div>
-		<div class="col-6"><img src="images/cpmarvel.jpg"></div>	
+		<div class="col-6"><img src="movie-images/wick3.jpg"></div>
+		<div class="col-6"><img src="movie-images/cpmarvel.jpg"></div>	
 	</div>
 </div>
 <div class="col-md-4">
 	<div class="row">
-		<div class="col-6"><img src="images/endgame.jpg"></div>
-		<div class="col-6"><img src="images/toystory.jpg"></div>	
+		<div class="col-6"><img src="movie-images/endgame.jpg"></div>
+		<div class="col-6"><img src="movie-images/toystory.jpg"></div>	
 	</div>
 </div>
 <div class="col-md-4">
 	<div class="row">
-		<div class="col-6"><img src="images/aladdin.jpg"></div>
-		<div class="col-6"><img src="images/joker.jpg"></div>	
+		<div class="col-6"><img src="movie-images/aladdin.jpg"></div>
+		<div class="col-6"><img src="movie-images/joker.jpg"></div>	
 	</div>
 </div>
 </div>
